@@ -3,7 +3,7 @@ import TinyMCE from 'react-tinymce';
 
 class App extends React.Component {
   handleEditorChange = (e) => {
-    console.log('Content was updated:', e.target.getContent());
+    console.log('Content was changed:', e.target.getContent());
   }
 
   render() {
